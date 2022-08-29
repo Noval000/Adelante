@@ -1,0 +1,1645 @@
+body {
+  font-family: 'Raleway', sans-serif, 'Open Sans', sans-serif, 'Marck Script', cursive;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+  	color: #000;
+  	outline: none;
+}
+a:focus {
+	outline: none;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+  width: 1120px;
+  margin: 0 auto;
+
+}
+
+
+/* Первая шапка  */
+
+
+
+.one_block_header{
+  height: 70px;
+  background-color: #6CCFF0;
+  display: flex;
+  align-items: center;
+}
+.one_header{
+  display: flex;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.block_text_one_header{
+  display: flex;
+  align-items: center;
+}
+.block_icon_one_header{
+  display: flex;
+  align-items: center;
+}
+.mobile_icon{
+  margin-right: 8px;
+}
+.number_phone_one_header a{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-right: 25px;
+}
+.hours_works_one_header {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-right: 25px;
+}
+.day_1_5{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-right: 25px;
+  border-right: 1px solid #fff;
+  padding-right: 25px;
+}
+.day_6{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-right: 25px;
+  border-right: 1px solid #fff;
+  padding-right: 25px;
+}
+.day_7{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.vk_one_header{
+  margin-left: 25px;
+  filter: brightness(60%)
+}
+.inst_one_header{
+  filter: brightness(60%)
+}
+.vk_one_header:hover{
+  filter: brightness(100%)
+}
+.inst_one_header:hover{
+  filter: brightness(100%)
+}
+
+
+
+/* Вторая шапка  */
+
+
+
+.two_block_header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.two_header{
+  display: flex;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+.img_logo{
+  margin-right: 5px;
+}
+.title_logo a{
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+}
+.logo_two_header{
+  display: flex;
+  align-items: center;
+  margin-right: 142px;
+}
+.menu{
+  display: flex;
+  column-gap: 35px;
+  align-items: center;
+}
+.bar1, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: #ddd;
+  margin: 6px 0;
+  transition: 0.5s;
+}
+.bar2 {
+  width: 20px;
+  height: 3px;
+  background-color: #ddd;
+  margin: 6px 0;
+  transition: 0.5s;
+}
+.icon_mobile_menu{
+  padding-right: 20px;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+.mobile_menu{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+.main a{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+  padding-bottom: 18px;
+}
+.main a:hover{
+  border-bottom: 3px solid #293E8F;
+}
+.about_us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_us a{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.border_about_us:hover{
+  border-bottom: 3px solid #293E8F;
+}
+.border_about_us{
+  padding-bottom: 20px;
+}
+
+.our_doctors a{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.our_doctors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.border_our_doctors:hover{
+  border-bottom: 3px solid #293E8F;
+}
+.border_our_doctors{
+  padding-bottom: 20px;
+}
+.border_our_service:hover{
+  border-bottom: 3px solid #293E8F;
+}
+.border_our_service{
+  padding-bottom: 20px;
+}
+.our_service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our_service a{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.our_nowledge a{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+  padding-bottom: 18px;
+}
+.our_nowledge a:hover{
+  border-bottom: 3px solid #293E8F;
+}
+.etc a{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #293E8F;
+  padding-bottom: 18px;
+}
+.etc a:hover{
+  border-bottom: 3px solid #293E8F;
+}
+.about_us_podmenu{
+  display: none;
+  position: absolute;
+}
+.about_us_podmenu.active{
+  display: block;
+  background-color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  z-index: 1;
+}
+.Kemerovo{
+  padding: 20px 20px 20px 20px;
+}
+.Kemerovo:hover{
+  background-color: #6CCFF0;
+}
+.Bolotnoe{
+  padding: 20px 20px 20px 20px;
+}
+.Bolotnoe:hover{
+  background-color: #6CCFF0;
+}
+
+.therapeutic_services, .surgical_services, .orthopedic_services, .pediatric_dentistry{
+  padding: 20px 20px 20px 20px;
+}
+.pediatric_dentistry:hover{
+  background-color: #6CCFF0;
+}
+.therapeutic_services:hover{
+  background-color: #6CCFF0;
+}
+.surgical_services:hover{
+  background-color: #6CCFF0;
+}
+.orthopedic_services:hover{
+  background-color: #6CCFF0;
+}
+.our_doctors_podmenu{
+  display: none;
+  position: absolute;
+}
+.our_service_podmenu{
+  display: none;
+  position: absolute;
+}
+.our_doctors_podmenu.active{
+  display: block;
+  background-color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  z-index: 1;
+}
+.our_service_podmenu.active{
+  display: block;
+  background-color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+/* Третья шапка для мобилки  */
+
+
+
+.three_header_right_clone{
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+.three_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+.call{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+.make_an_appointment{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  color: #fff;
+}
+.three_header_left{
+  text-align: center;
+  padding: 0px 20px;
+}
+.works_hours{
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 12px;
+  color: #c5c5c5;
+  margin: 3px 0px 3px 0px;
+}
+.make_an_appointment{
+  background-color: #ffa500;
+  height: 60px;
+  padding: 0px 10px;
+}
+
+
+
+/*  Форма записи на прием  */
+
+
+
+
+
+
+.wrapper_form{
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 0px 20px;
+}
+.form_an_appointment{
+  position: relative;
+  z-index: 1;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
+.an_appointment{
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  display: none;
+  z-index: 1;
+}
+.an_appointment.active {
+  display: flex;
+  width: 80vw;
+  background: #ddd;
+}
+.title_form{
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12px;
+  color: #000;
+  margin-bottom: 40px;
+  padding: 20px 20px;
+}
+.name_form{
+  padding: 10px 10px;
+  width: 70vw;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+.form_name{
+  padding: 0px 20px;
+}
+.number_form{
+  padding: 10px 10px;
+  width: 70vw;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.comment{
+  padding: 10px 10px;
+  width: 70vw;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.appointment{
+  border: none;
+  background-color: #ffa500;
+  color: #fff;
+  padding: 15px 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.close_form{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.close_form img {
+  filter: brightness(0);
+}
+@media(max-width: 898px){
+  .title_form{
+    margin-bottom: 10px;
+  }
+  .close_form{
+    right: 30px;
+    padding: 10px 10px;
+  }
+  .name_form{
+    margin-bottom: 15px;
+    width: 300px;
+  }
+  .number_form{
+    margin-bottom: 15px;
+    width: 300px;
+  }
+  .comment{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 120px; 
+  }
+}
+@media(max-width: 414px){
+  .center{
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .an_appointment.active {
+    width: 100vw;
+  }
+  .name_form{
+    margin-bottom: 15px;
+    width: 90vw;
+  }
+  .number_form{
+    margin-bottom: 15px;
+    width: 90vw;
+  }
+  .comment{
+    margin-bottom: 15px;
+    width: 90vw;
+    height: 80px; 
+  }
+  .close_form{
+    right: 10px;
+  }
+}
+.filter.active {
+  opacity: 0.6;
+}
+.filter {
+  transition: .3s all ease;
+}
+
+/*  Фон с лого  */
+
+
+.background{
+  background-image: url(../img/background.png);
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block_back_logo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  padding: 0 20px;
+}
+.cube_logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  margin-bottom: 47px;
+  animation: 2s titlecube infinite linear;
+  perspective: 500px;
+  transform-style: flat;
+  cursor: pointer;
+}
+@keyframes titlecube {
+	0% {
+		transform: rotate(0);
+	}
+	25% {
+		transform: rotateX(45deg);
+	}
+	50% {
+		transform: rotateX(90deg);
+	}
+	75% {
+		transform: rotateX(45deg);
+	}
+	100% {
+		transform: rotate(0);
+	}
+	
+}
+.border_in_cube{
+  width: 234px;
+  height: 1px;
+  background: #FFFFFF;
+  border-radius: 100px;
+}
+.text_bottom_cube{
+  margin: 135px 0px;
+}
+@media (max-width: 500px) {
+  .text_bottom_cube {
+    margin: 40px 0px;
+  } 
+}
+.title_cube{
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.subtitle_cube{
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+.title_block_back_logo p{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.subtitle_block_back_logo{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 30px;
+  width: 774px;
+}
+
+
+@media(max-width: 910px){
+  .one_block_header{
+    display: none;
+  }
+  .cube_logo{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+  .three_header_right_clone{
+    display: none;
+  }
+  .mobile_menu{
+    display: flex;
+  }
+  .three_header{
+    display: flex;
+  }
+  .logo_two_header{
+    margin: 0 auto;
+  }
+  .img_logo{
+    margin-right: 15px;
+  }
+  .title_logo a{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 5px;
+    color: #293E8F;
+  }
+  .cube_logo {
+    width: 270px;
+    height: 270px;
+    margin-top: 200px;
+  }
+  .title_cube {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+  }
+  .subtitle_block_back_logo {
+    width: auto;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 500px) {
+  .block_back_logo {
+    height: 100vh;
+    justify-content: center;
+  } 
+  .subtitle_cube {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .title_cube {
+    font-weight: 300;
+    font-size: 30px;
+  }
+  .cube_logo {
+    border: none;
+    display: flex;
+    margin-top: 0;
+  }
+}
+
+
+/* Мобильное меню   */
+.podmenu_icon {
+	padding-left: 20px;
+	display: inline-block;
+	color: #000;
+}
+.podmenu_icon.active {
+	transform: rotate(180deg);
+	margin-left: 20px;
+	display: inline-block;
+	color: #ddd;
+}
+.podmenu_icon_doc {
+	padding-left: 20px;
+	display: inline-block;
+	color: #000;
+}
+.podmenu_icon_doc.active {
+	transform: rotate(180deg);
+	margin-left: 20px;
+	display: inline-block;
+	color: #ddd;	
+}
+.podmenu_icon_our_service.active {
+	transform: rotate(180deg);
+	margin-left: 20px;
+	display: inline-block;
+	color: #ddd;	
+}
+.podmenu_icon_our_service {
+	padding-left: 20px;
+	display: inline-block;
+	color: #000;
+}
+
+.about_us_podmenu_mobile_menu{
+  display: none;
+}
+.about_us_podmenu_mobile_menu.active{
+  display: block;
+}
+.our_doctors_podmenu_mobile_menu{
+  display: none;
+}
+.our_doctors_podmenu_mobile_menu.active{
+  display: block;
+}
+.our_service_podmenu_mobile_menu{
+  display: none;
+}
+.our_service_podmenu_mobile_menu.active{
+  display: block;
+}
+.our_service_mobile_menu a{
+  font-style: italic;
+}
+.our_service_mobile_menu a:focus{
+  border-bottom: 1px solid #6CCFF0;
+}
+.our_nowledge_mobile_menu a{
+  font-style: italic;
+}
+.our_nowledge_mobile_menu a:focus{
+  border-bottom: 1px solid #6CCFF0;
+}
+.etc_mobile_menu a{
+  font-style: italic;
+}
+.etc_mobile_menu a:focus{
+  border-bottom: 1px solid #6CCFF0;
+}
+.our_doctors_mobile_menu a{
+  font-style: italic;
+}
+.our_doctors_mobile_menu a:focus{
+  border-bottom: 1px solid #6CCFF0;
+}
+.about_us_mobile_menu a{
+  font-style: italic;
+}
+.about_us_mobile_menu a:focus{
+  border-bottom: 1px solid #6CCFF0;
+}
+.main_mobile_menu a{
+  font-style: italic;
+}
+.main_mobile_menu a:focus{
+  border-bottom: 1px solid #6CCFF0;
+}
+.bar1.active{
+    transform: translateY(8px) rotate(45deg);
+    margin-left: -100px;
+}
+.bar2.active{
+  display: none;
+}
+.bar3.active{
+  transform: rotate(-45deg) translateY(0px);
+   margin-left: -100px;
+}
+.menu_list_mobile_menu.active{
+  margin-left: 0px;
+  width: 100vw;
+}
+
+
+
+
+.menu_list_mobile_menu{
+  padding: 10px 0 0 30px;
+  height: 100vh;
+  background-color: #fff;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: -70%;
+  transition: .5s all ease;
+}
+@media screen and (max-width: 600px) {
+	.menu_list_mobile_menu {
+		margin-left: -69%;
+		width: 20vw;
+	}
+}
+.main_mobile_menu{
+   margin: 20px 20px;
+   padding: 5px 5px;
+}
+.about_us_mobile_menu{
+	margin: 0px 20px 20px 20px;
+    padding: 5px 5px;
+}
+.Kemerovo_mobile_menu{
+  padding-top: 10px;
+}
+.Bolotnoe_mobile_menu{
+  padding-top: 10px;
+}
+.our_doctors_mobile_menu{
+	margin: 0px 20px 20px 20px;
+    padding: 5px 5px;
+}
+.border_our_service_mobile_menu{
+}
+.our_service_mobile_menu {
+	margin: 0px 20px 20px 20px;
+    padding: 5px 5px;
+}
+.therapeutic_services_mobile_menu{
+  padding-top: 10px;
+}
+.surgical_services_mobile_menu{
+  padding-top: 10px;
+}
+.orthopedic_services_mobile_menu{
+  padding-top: 10px;
+}
+.pediatric_dentistry_mobile_menu{
+  padding-top: 10px;
+}
+.our_nowledge_mobile_menu{
+	margin: 0px 20px 20px 20px;
+    padding: 5px 5px;
+}
+.etc_mobile_menu{
+	margin: 0px 20px 20px 20px;
+    padding: 5px 5px;
+}
+
+
+/*  Иконка позвонить в мобилке  */ 
+
+
+
+
+
+.call_mobile{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+
+/* Наши услуги  */
+
+
+
+
+.title_block_our_service{
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 0px 20px;
+  justify-content: center;
+}
+.text_block_title_block_our_service{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #28BAE9;
+  text-align: center;
+  margin: 0px 40px;
+}
+@media(max-width: 1001px){
+  .before{
+    display: none;
+  }
+  .after{
+    display: none;
+  }
+}
+.after{
+  width: 100px;
+  height: 2px; 
+  background-color: #28BAE9;
+}
+.before{
+  width: 100px;
+  height: 2px; 
+  background-color: #28BAE9;
+}
+.card_our_service{
+  display: flex;
+  column-gap: 100px;
+  justify-content: space-between;
+  padding: 0px 20px;
+
+}
+.first_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.second_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.third_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.block_our_services{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.name_card{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+  margin-top: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.subtitle_card{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.btn a{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #28BAE9;
+  letter-spacing: 2px;
+}
+.block_our_services{
+  margin-bottom: 130px;
+}
+
+@media(max-width: 1000px){
+  .card_our_service{
+    flex-direction: column;
+    align-items: center;
+  }
+  .first_card{
+    width: 100%;
+  }
+  .second_card{
+    width: 100%;
+  }
+  .third_card{
+    width: 100%;
+  }
+  .btn{
+    margin-bottom: 60px;
+  }
+  .text_block_title_block_our_service::after{
+    display: none;
+  }
+  .text_block_title_block_our_service::before{
+    display: none;
+  }
+  .text_block_title_block_our_service{
+    position: static;
+  }
+  .block_our_services{
+    margin-bottom: 80px;
+  }
+}
+@media(max-width: 604px){
+  .subtitle_block_back_logo{
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 100px;
+  }
+  .title_block_back_logo p{
+    font-size: 22px;
+  }
+  .cube_logo {
+    margin-top: 180px;
+  }
+}
+
+
+
+/* акции */
+
+
+.flex_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  display: none;
+}
+.background_our_sale{
+  background-color: #6CCFF0;
+  position: relative;
+}
+@media (max-width: 500px) {
+  .background {
+    background: #6CCFF0;
+  }
+  .background_our_sale {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 1%, rgba(108,207,240,1) 32%, rgba(108,207,240,1) 84%, rgba(255,255,255,1) 99%);
+  }
+}
+.after_sale{
+  width: 100px;
+  height: 2px; 
+  background-color: #fff;
+}
+.before_sale{
+  width: 100px;
+  height: 2px; 
+  background-color: #fff;
+}
+.block_our_sale{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-bottom: 180px;
+}
+.block_text_our_sale{
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  justify-content: center;
+}
+.title_sale{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 80px 40px;
+}
+
+@media(max-width: 1000px){
+  .before_sale{
+    display: none;
+  }
+  .after_sale{
+    display: none;
+  }
+}
+.name_sale {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  padding: 20px 0px;
+  text-align: center;
+}
+.name_sale_ {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  padding: 20px 0px;
+  text-align: center;
+}
+.data_sale {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #49423d;
+  padding: 20px 0px;
+}
+.photo_aftor img {
+  width: 35px;
+  height: auto;
+}
+.photo_sale {
+  padding-bottom: 67px;
+}
+.background_sale{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.owl-carousel, .owl-carousel .owl-item {
+  position: static;
+}
+
+@media (max-width: 820px) {
+  .name_sale {
+    font-size: 16px;
+  }
+  .name_sale_ {
+    font-size: 16px;
+  }
+}
+@media (max-width: 712px) {
+  .name_sale {
+    font-size: 14px;
+  }
+  .name_sale_ {
+    font-size: 16px;
+  }
+  .data_sale {
+    font-size: 12px;
+  }
+}
+@media (max-width: 474px) {
+  .name_sale_ {
+    padding: 20px 0px 47px 0px;
+  }
+}
+@media (max-width: 378px) {
+  .name_sale_ {
+    padding: 19px 0px 21px 0px;
+  }
+}
+.about_sale {
+  background-color: #ffa500;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+@media screen and (max-width: 425px) {
+	.about_sale {
+		top: 80%;
+	}
+}
+.about_sale_ {
+  padding: 5px 10px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+/* Contact  */
+
+.block_contact{
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.all_contact{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.name_block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_block_title_block_contact{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #28BAE9;
+  text-align: center;
+  margin: 80px 40px;
+}
+.contact_kemerovo{
+  text-align: center;
+}
+.contact_bolotnoe{
+  text-align: center;
+}
+.title_contact_kemerovo{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.title_contact_bolotnoe{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.number_phone_contact_kemerovo{
+  margin-bottom: 15px;
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.grafic_works_kemerovo{
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.number_phone_contact_bolotnoe{
+  font-family: 'open sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+@media(max-width: 800px){
+  .all_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .title_contact_bolotnoe{
+    margin-top: 40px;
+  }
+}
+
+
+
+
+/* Страница о нас  */
+
+
+.block_about_us {
+  background-color: #6CCFF0;
+}
+.container_about_us{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.title_block_about_us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px 80px 20px;
+}
+.text_block_title_block_about_us{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  margin: 0px 40px;
+}
+.before_block_about_us {
+  width: 100px;
+  height: 2px; 
+  background-color: #fff;
+}
+.after_block_about_us {
+  width: 100px;
+  height: 2px; 
+  background-color: #fff;
+}
+@media (max-width: 1001px) {
+  .before_block_about_us{
+    display: none;
+  }
+  .after_block_about_us {
+    display: none;
+  }
+}
+.subtitle_block_about_us{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  padding: 0px 20px 80px 20px;
+}
+
+
+
+
+
+
+/* КДВ  */
+
+.block_kucher_doc{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.all_kucher{
+  display: flex;
+  column-gap: 20px;
+  padding: 0px 20px;
+}
+.left_kucher img {
+  width: 400px;
+  height: auto;
+}
+.title_block_kucher_doc{
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #28BAE9;
+  cursor: pointer;
+  transition: all 1s ease;
+  margin: 60px 20px;
+  padding: 40px 0px 40px 0px;
+  border: 1px solid #28BAE9;
+}
+.title_block_kucher_doc:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+  transition: all 1s ease;
+}
+@media (max-width: 768px) {
+  .title_block_kucher_doc {
+    border: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+  .subtitle_block_about_us {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+    padding: 0px 20px 20px 20px;
+  }
+  .title_block_about_us {
+    padding: 40px 20px 40px 20px;
+  }
+}
+@media (max-width: 1258px) {
+  .all_kucher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0px;
+    padding: 0px 20px;
+    text-align: justify;
+  }
+  .right_kucher{
+    padding-top: 20px;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #000;
+  }
+}
+@media (max-width: 448px) {
+  .left_kucher img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/*  Страница клиника Кемерово  */
+
+
+.block_title_about_us_kem_html {
+  background-color: #6CCFF0;
+}
+.block_text_block_title_about_us_kem_html {
+  padding: 80px 0px;
+  display: flex;
+  align-items: center;justify-content: center;
+}
+.title_block_title_about_us_kem_html {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  margin: 0px 40px;
+}
+.main_photo_kem img {
+  max-width: 100%;
+  height: auto;
+}
+.one_three_card{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.card_clinic_kem {
+  padding-top: 20px;
+}
+.all_block_title_about_us_kem_html{
+  padding: 0px 20px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+  .card_1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card_2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card_3 img {
+    max-width: 100%;
+    height: auto;
+  }
+@media (max-width: 768px) {
+  .one_three_card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card_2, .card_3{
+    padding-top: 20px;
+  }
+}
+@media (max-width: 495px) {
+  .block_text_block_title_about_us_kem_html{
+    padding: 20px 0px;
+  }
+  .title_block_title_about_us_kem_html{
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin: 0px 40px;
+  }
+}
+
+/* Главная фотка в г. Болотное   */
+.main_photo_bol img{
+  max-width: 100%;
+  height: auto;
+}
+.main_photo_bol {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 40px 20px;
+}
+
+#button-up {
+  display:none;
+  right: 20px;
+  margin: 0;
+  position: fixed;
+  bottom: 21px;
+  outline:none;
+  width: 59px;
+  height: 59px;
+  color: #333333;
+  line-height: 30px;
+  text-decoration: none;
+  background: url(../img/icon_up.png) center center no-repeat #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+/*  Врачи в г. Кемерово и Болотное  */
+.title_block_doc_bol{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  margin: 0px 40px;
+}
+.title_block_doc_kem{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  margin: 0px 40px;
+}
+.container_block_doc_kem{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.card_doc_kem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name_doc{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000;
+  padding: 30px 0px;
+}
+.photo_doc img {
+  max-width: 100%;
+  height: auto;
+}
+.about_doc{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000000;
+  margin: 25px 0px;
+}
+@media (max-width: 470px){
+  .name_doc{
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .about_doc{
+    font-size: 14px;
+  }
+}
+@media (max-width: 495px){
+  .title_block_doc_kem, .title_block_doc_bol{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+  }
+}
